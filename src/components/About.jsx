@@ -36,7 +36,7 @@ export default function About() {
       <CustomTypography>
         Un apasionado profesional con más de un año de experiencia en la
         creación y mejora de
-        <ColorText text=" aplicaciones web " color="#96b571" />
+        <ColorText text=" aplicaciones web" color="#96b571" />
         . Mi enfoque se ha centrado tanto en el desarrollo
         <ColorText text=" Frontend" color="#ffcb29" />
         <CustomIconBox link="https://es.react.dev">
