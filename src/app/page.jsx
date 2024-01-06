@@ -4,7 +4,7 @@ import theme from "./theme";
 import Title from "@/components/Title";
 import About from "@/components/About";
 import FindMe from "@/components/FindMe";
-import WorkingExperience from "@/components/WorkingExperience";
+//import WorkingExperience from "@/components/WorkingExperience";
 import Proyects from "@/components/Proyects";
 import Education from "@/components/Education";
 
