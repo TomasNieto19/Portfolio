@@ -30,7 +30,7 @@ export default function WorkingExperience() {
   return (
     <Box maxWidth={400} my={3}>
       <Typography variant="h4" component="h4" color="white" mb={1}>
-        <FaBagShopping size="2rem" /> Experiencia laboral
+        <FaBagShopping size="1.7rem" /> Experiencia laboral
       </Typography>
 
       <Stepper orientation="vertical">

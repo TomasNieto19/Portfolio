@@ -6,7 +6,7 @@ export default function Proyects() {
   return (
     <>
       <Box display="flex" alignItems="center" mt={3}>
-        <FaCode size="2rem" style={{ marginRight: "8px", color: "white" }} />
+        <FaCode size="1.7rem" style={{ marginRight: "8px", color: "white" }} />
         <Typography variant="h4" component="h4" color="white">
           Proyectos
         </Typography>
