@@ -4,19 +4,20 @@ import { Box, Typography, Stepper, Step, StepContent } from "@mui/material";
 import { FaBagShopping } from "react-icons/fa6";
 import { FaRegCircle } from "react-icons/fa";
 
-const steps = [
+const experiences = [
   {
     id: 1,
     year: "Septiembre 2023 - Actualidad",
     label: "Fullstack Developer",
-    description: `...`,
+    description: `Migración de un sistema con la Universidad Nacional de Lanús para la Subsecretaria de la Plata. 
+                  Realizando el Backend en Java (Spring Boot) y Frontend en React JS. Incluyendo Docker, Github, Scrum, Kanban (Jira).`,
   },
   {
     id: 2,
     year: "Junio 2022 - Agosto 2023",
     label: "Frontend Developer",
     description: `Desarrollo de aplicación web con la Universidad Nacional de Lanús para la Autoridad de Cuenca Matanza-Riachuelo.
-                  Utilizando React JS, Material UI, Axios, Docker, Github, Scrum, Kanban (Trello), entre otras.`,
+                  Utilizando React JS, Material UI, Axios, Docker, Github, Scrum, Kanban (Trello).`,
   },
   {
     id: 3,
@@ -34,10 +35,10 @@ export default function WorkingExperience() {
       </Typography>
 
       <Stepper orientation="vertical">
-        {steps.map((step) => (
+        {experiences.map((step) => (
           <Step active expanded key={step.id}>
             <Box display="flex" alignItems="center" flexDirection="row" m={0.5}>
-              {step.id !== 3 && <FaRegCircle size="1rem" />}
+              {step.id !== 3 && <FaRegCircle size="1rem" color="#96b571" />}
               <Typography fontSize="14px" ml={1} color="#94D4F6">
                 {step.year}
               </Typography>
