@@ -11,7 +11,7 @@ export default function Title() {
       display="flex"
       my={6}
     >
-      <Image src="/Foto.png" width={70} height={70} alt="Foto" priority />
+      <Image src="/Foto.png" width={80} height={80} alt="Foto" priority />
       <Box>
         <Typography variant="h3" component="h2" color="white" px={3}>
           Hola!, soy Tomás 👋

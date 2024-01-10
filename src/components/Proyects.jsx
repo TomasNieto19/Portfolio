@@ -31,16 +31,26 @@ export default function Proyects() {
       </Box>
       <Box mb={3}>
         {proyects.map(({ name, description, link }) => (
-          <Typography variant="body1" color="white" key={name} mb={1}>
-            <Link
-              href={link}
-              color="inherit"
-              target="_blank"
-              style={{ fontWeight: "bold" }}
-              underline="hover"
-            >
-              {name}
-            </Link>
+          <Typography
+            variant="body1"
+            fontSize="1.1rem"
+            color="white"
+            key={name}
+            mb={1}
+          >
+            {link ? (
+              <Link
+                href={link}
+                color="inherit"
+                target="_blank"
+                style={{ fontWeight: "bold" }}
+                underline="hover"
+              >
+                {name}
+              </Link>
+            ) : (
+              <strong>{name}</strong>
+            )}
             {description}
           </Typography>
         ))}

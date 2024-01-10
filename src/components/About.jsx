@@ -40,15 +40,15 @@ export default function About() {
         . Mi enfoque se ha centrado tanto en el desarrollo
         <ColorText text=" Frontend" color="#ffcb29" />
         <CustomIconBox link="https://es.react.dev">
-          <SiReact color="#087ea4" size="2.5rem" />
+          <SiReact color="#087ea4" size="2rem" />
         </CustomIconBox>
         como en el
         <ColorText text=" Backend" color="#ffcb29" />
         <CustomIconBox link="https://spring.io/">
-          <SiSpring color="#6cb42c" size="2rem" />
-        </CustomIconBox>.
+          <SiSpring color="#6cb42c" size="1.8rem" />
+        </CustomIconBox>
+        .
       </CustomTypography>
-
       <CustomTypography mt={1}>
         Me gusta afrontar desafíos creativos y construir soluciones efectivas,
         buscando también aprender diversas
