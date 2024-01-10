@@ -4,7 +4,7 @@ import { createTheme } from "@mui/material/styles";
 
 const theme = createTheme({
   typography: {
-    fontFamily: "merriweather, serif,",
+    fontFamily: ['"Apple Color Emoji"', "Roboto", "-apple-system"].join(","),
   },
 });
 
