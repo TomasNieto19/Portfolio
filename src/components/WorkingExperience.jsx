@@ -9,11 +9,11 @@ const experiences = [
     year: "Septiembre 2023 - Actualidad",
     label: "Fullstack Developer",
     description: `Migración de un sistema con la Universidad Nacional de Lanús para la Subsecretaria de la Plata. 
-                  Realizando el Backend en Java (Spring Boot) y Frontend en React JS. Incluyendo Docker, Github, Scrum, Kanban (Jira).`,
+                  Realizando el Backend en Java (Spring Boot) y Frontend en React JS. Incluyendo Docker, GitLab, Scrum, Kanban (Jira).`,
   },
   {
     id: 2,
-    year: "Junio 2022 - Agosto 2023",
+    year: "Julio 2022 - Agosto 2023",
     label: "Frontend Developer",
     description: `Desarrollo de aplicación web con la Universidad Nacional de Lanús para la Autoridad de Cuenca Matanza-Riachuelo.
                   Utilizando React JS, Material UI, Axios, Docker, Github, Scrum, Kanban (Trello).`,

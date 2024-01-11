@@ -11,7 +11,7 @@ export default function Proyects() {
       link: "https://github.com/TomasNieto19/DSSD-GrupoH-2023",
     },
     {
-      name: "Proyecto Web scraping",
+      name: "Web scraping",
       description: " - Aplicando NextJS, Python, Playwright y MongoDB.",
     },
     {
