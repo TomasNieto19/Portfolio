@@ -1,9 +1,7 @@
 import { AppRouterCacheProvider } from "@mui/material-nextjs/v14-appRouter";
+import { Analytics } from "@vercel/analytics/react";
 import Container from "@mui/material/Container";
 import "./globals.css";
-
-import { SpeedInsights } from "@vercel/speed-insights/next";
-import { Analytics } from "@vercel/analytics/react";
 
 export const metadata = {
   title: "Tomás Nieto",
@@ -20,7 +18,6 @@ export default function RootLayout({ children }) {
             <AppRouterCacheProvider>{children}</AppRouterCacheProvider>
           </Container>
           <Analytics />
-          <SpeedInsights />
         </main>
       </body>
     </html>
