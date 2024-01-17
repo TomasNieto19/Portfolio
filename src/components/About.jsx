@@ -11,7 +11,7 @@ function CustomTypography({ children, ...props }) {
     <Typography
       variant="h5"
       component="h5"
-      color="white"
+      color="primary.main"
       sx={{ textWrap: "balance" }}
       {...props}
     >
@@ -36,7 +36,7 @@ export default function About() {
       <CustomTypography>
         Un apasionado profesional con más de un año de experiencia en la
         creación y mejora de
-        <ColorText text=" aplicaciones web" color="#96b571" />
+        <ColorText text=" aplicaciones web" color="#6db33f" />
         . Mi enfoque se ha centrado tanto en el desarrollo
         <ColorText text=" Frontend" color="#ffcb29" />
         <CustomIconBox link="https://es.react.dev">
@@ -52,7 +52,7 @@ export default function About() {
       <CustomTypography mt={1}>
         Me gusta afrontar desafíos creativos y construir soluciones efectivas,
         buscando también aprender diversas
-        <ColorText text=" tecnologías" color="#96b571" />.
+        <ColorText text=" tecnologías" color="#6db33f" />.
         <br />
         De Buenos Aires, Argentina 🇦🇷.
       </CustomTypography>

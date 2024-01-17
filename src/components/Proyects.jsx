@@ -23,9 +23,9 @@ export default function Proyects() {
 
   return (
     <>
-      <Box display="flex" alignItems="center" mt={3} mb="8px">
-        <FaCode size="1.7rem" style={{ marginRight: "8px", color: "white" }} />
-        <Typography variant="h4" component="h4" color="white">
+      <Box display="flex" alignItems="center" color="secondary.main" mt={3} mb="8px">
+        <FaCode size="1.7rem" style={{ marginRight: "8px" }} />
+        <Typography variant="h4" component="h4">
           Proyectos
         </Typography>
       </Box>

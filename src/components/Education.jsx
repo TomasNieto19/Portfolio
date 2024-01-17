@@ -19,8 +19,8 @@ export default function Education() {
 
   return (
     <>
-      <Box mt={3}>
-        <Typography variant="h4" component="h4" color="white" mb={1}>
+      <Box mt={3} color="secondary.main">
+        <Typography variant="h4" component="h4" mb={1}>
           <FaUserGraduate size="1.7rem" /> Educación
         </Typography>
       </Box>
